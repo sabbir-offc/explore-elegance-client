@@ -18,7 +18,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div className="flex justify-center items-center">
-                        <Image src={logo} width={300} height={300} alt='logo' draggable={false} />
+                        <Image src={logo} width={70} height={70} alt='logo' draggable={false} />
                         <h1 className='font-semibold'>Explore<span className='text-[#1F89C9] font-bold'>Elegance</span></h1>
                     </div>
                     <div className="flex items-center md:space-x-4">
