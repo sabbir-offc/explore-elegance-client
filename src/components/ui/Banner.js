@@ -17,7 +17,7 @@ const Banner = () => {
             <Swiper
                 slidesPerView={4}
                 centeredSlides={true}
-                spaceBetween={30}
+                spaceBetween={20}
                 grabCursor={true}
                 pagination={{
                     clickable: true,
@@ -26,25 +26,25 @@ const Banner = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <Image alt='banner image' width={500} height={400} src={banner1} />
+                    <Image alt='banner image' className='rounded-lg' width={900} height={800} src={banner1} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image alt='banner image' width={500} height={400} src={banner2} />
+                    <Image alt='banner image' className='rounded-lg' width={900} height={800} src={banner2} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image alt='banner image' width={500} height={400} src={banner3} />
+                    <Image alt='banner image' className='rounded-lg' width={900} height={800} src={banner3} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image alt='banner image' width={500} height={400} src={banner4} />
+                    <Image alt='banner image' className='rounded-lg' width={900} height={800} src={banner4} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image alt='banner image' width={500} height={400} src={banner5} />
+                    <Image alt='banner image' className='rounded-lg' width={900} height={800} src={banner5} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image alt='banner image' width={500} height={400} src={banner6} />
+                    <Image alt='banner image' className='rounded-lg' width={900} height={800} src={banner6} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image alt='banner image' width={500} height={400} src={banner7} />
+                    <Image alt='banner image' className='rounded-lg' width={900} height={800} src={banner7} />
                 </SwiperSlide>
 
             </Swiper>
