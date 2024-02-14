@@ -13,11 +13,11 @@ const Navbar = () => {
                                 Home</Link>
                         </li>
                         <li className="flex">
-                            <Link href={'/'} className='flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400'>
+                            <Link href={'/about'} className='flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400'>
                                 About</Link>
                         </li>
                         <li className="flex">
-                            <Link href={'/'} className='flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400'>
+                            <Link href={'/contact'} className='flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400'>
                                 Contact</Link>
                         </li>
 
@@ -38,7 +38,9 @@ const Navbar = () => {
                             </span>
                             <input type="search" name="Search" placeholder="Search..." className="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none bg-gray-200 focus:dark:bg-gray-300 focus:duration-700" />
                         </div>
-                        <button className="hidden font-poppins px-6 py-2 font-semibold rounded lg:block bg-[#1F89C9] text-white hover:bg-blue-800 transition-colors duration-500">Log in</button>
+                        <Link href={'/sign-in'}>
+                            <button className="hidden font-poppins px-6 py-2 font-semibold rounded lg:block bg-[#1F89C9] text-white hover:bg-blue-800 transition-colors duration-500">Log in</button>
+                        </Link>
                     </div>
                     <button title="Open menu" type="button" className="p-4 lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-100">
